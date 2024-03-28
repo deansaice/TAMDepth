@@ -2,7 +2,7 @@
 
 This is the reference PyTorch implementation for training and testing depth estimation models using the method described in
 
-"TAMDepth:Self-Supervised Monocular Depth Estimation with Transformer and Adapter Modulation"
+["TAMDepth:Self-Supervised Monocular Depth Estimation with Transformer and Adapter Modulation"](https://link.springer.com/article/10.1007/s00371-024-03332-3#)
 
 <div class='paper-box'><div class='paper-box-image'><img src='fig/Fig1.png' alt="sym" width="90%"></div>
 <div class='paper-box-text' markdown="1">
@@ -45,6 +45,9 @@ pip install instaboostfast # for htc++
 cd networks
 cd ops & sh make.sh # compile deformable attention
 ```
+#### Cite
+Li, S., Lyu, C., Xia, B. et al. TAMDepth: self-supervised monocular depth estimation with transformer and adapter modulation. Vis Comput (2024). 
+https://doi.org/10.1007/s00371-024-03332-3
 
 #### Acknowledgement
  Thanks the authors for their works:
