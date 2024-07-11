@@ -45,6 +45,23 @@ pip install instaboostfast # for htc++
 cd networks
 cd ops & sh make.sh # compile deformable attention
 ```
+
+## Single Image Test
+#### preparing trained model
+From the table you can download trained models (depth encoder and depth decoder).
+
+#### start testing
+    python test_simple.py --load_weights_folder path/to/your/weights/folder --image_path path/to/your/test/image
+
+## Evaluation
+    python evaluate_depth.py --load_weights_folder path/to/your/weights/folder --data_path path/to/kitti_data/ --model lite-mono
+
+
+## Training
+
+#### start training
+    python train.py --data_path path/to/your/data --model_name mytrain --mypretrain path/to/your/pretrained/weights
+   
 #### Cite
 Li, S., Lyu, C., Xia, B. et al. TAMDepth: self-supervised monocular depth estimation with transformer and adapter modulation. Vis Comput (2024). 
 https://doi.org/10.1007/s00371-024-03332-3
