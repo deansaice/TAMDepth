@@ -55,4 +55,4 @@ https://doi.org/10.1007/s00371-024-03332-3
  - [HRDepth](https://github.com/shawLyu/HR-Depth)
  - [SMT](https://github.com/AFeng-x/SMT)
  - [Vit-Adapter](https://github.com/czczup/ViT-Adapter)
- - [Litemono]()
+ - [Litemono](https://github.com/noahzn/Lite-Mono)
